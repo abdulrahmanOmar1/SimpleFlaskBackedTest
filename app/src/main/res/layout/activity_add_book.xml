@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:padding="8dp"
+    android:background="@color/colorPrimary"
+    tools:context=".AddBookActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add New Book"
+        android:textSize="24sp"
+        android:textColor="@color/colorWhite" />
+
+    <EditText
+        android:id="@+id/edtTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:hint="title"
+
+        android:textColor="@color/colorWhite"
+        android:background="@color/white" />
+
+    <EditText
+        android:id="@+id/edtCategory"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:ems="10"
+        android:hint="category"
+        android:textColor="@color/colorWhite"
+        android:background="@color/white" />
+
+    <EditText
+        android:id="@+id/edtPages"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:ems="10"
+        android:hint="pages"
+        android:textColor="@color/colorWhite"
+        android:background="@color/white" />
+
+    <Button
+        android:id="@+id/btnAdd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="btnAdd_Click"
+        android:text="Add"
+        android:layout_gravity="center"
+        android:textColor="@color/colorWhite"
+        android:backgroundt="@color/white" />
+</androidx.appcompat.widget.LinearLayoutCompat>
